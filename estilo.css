@@ -1,0 +1,70 @@
+p {
+    text-align: justify;
+}
+
+h1 {
+    color: limegreen;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+}
+
+.darwin {
+    background-color: yellow;
+}
+
+.citacao-em-bloco {
+    margin-left: 60px;
+}
+
+
+table {
+    position: relative;
+    border-width: 3px;
+    border-style: solid;
+    border-color: limegreen;
+  }
+  
+  table::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(fundo.png);
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  
+td {
+    padding: 10px;
+    border: none;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: limegreen;
+
+}
+
+.jaula {
+    width: 300px;
+    border: 8px solid limegreen;
+    display: block;
+    margin: auto;
+}
+
+.succao {
+    border: 8px solid limegreen;
+    display: block;
+    margin: auto;
+}
